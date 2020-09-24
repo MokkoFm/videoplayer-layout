@@ -1,7 +1,6 @@
 # Videoplayer's layout
 
 You can look a layout of videoplayer by [link](https://mokkofm.github.io/videoplayer-layout/). 
-
 ![image info](player.png)
 
 ### How to use layout
