@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-You can change some elements of layout and look a result [here](http://127.0.0.1:5500/)
+You can change some elements of layout and look a result [here](http://127.0.0.1:5500/).
 
 ### Purpose
 
