@@ -18,6 +18,11 @@ i.fa {
 div.buttons {
   background-color: black;
   line-height: 40px;
+  display: flex;
+}
+
+div.space {
+    flex-grow: 1;
 }
 
 div.timeline {
