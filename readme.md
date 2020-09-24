@@ -1,6 +1,8 @@
 # Videoplayer's layout
 
 You can look a layout of videoplayer by [link](https://mokkofm.github.io/videoplayer-layout/). 
+You can read how to hook up the player at [https://github.com/devmanorg/video-player-jslib](https://github.com/devmanorg/video-player-jslib).
+
 ![image info](player.png)
 
 ### How to use layout
