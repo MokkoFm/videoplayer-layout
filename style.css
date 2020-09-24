@@ -1,25 +1,12 @@
-button.js-play-button {
+button {
   border-style: hidden;
   background-color: transparent;
 }
 
-button.js-pause-button {
-  border-style: hidden;
-  background-color: transparent;
-}
-
-button.js-volume-button {
-  border-style: hidden;
-  background-color: transparent;
-}
-
-button.js-mute-button {
-  border-style: hidden;
-  background-color: transparent;
-}
-
-i {
+i.fa {
   color: white;
+  font-size: 20px;
+  padding: 5px;
 }
 
 #player {
@@ -30,6 +17,7 @@ i {
 
 div.buttons {
   background-color: black;
+  line-height: 40px;
 }
 
 div.timeline {
