@@ -21,16 +21,20 @@ div.buttons {
   display: flex;
 }
 
-div.space {
-    flex-grow: 1;
+div.js-progress {
+  flex-grow: 1;
+  background-color: black;
+}
+
+div.js-progress-slider {
+  background-color: white;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 div.timeline {
   color: white;
-}
-
-div.js-progress {
-  background-color: grey;
 }
 
 div.js-video-container {
@@ -38,6 +42,6 @@ div.js-video-container {
   height: 100%;
 }
 
-div.js-progress-slider {
-  background-color: red;
+.progress-text {
+  margin-left: 10px;
 }
