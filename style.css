@@ -8,6 +8,16 @@ button.js-pause-button {
   background-color: transparent;
 }
 
+button.js-volume-button {
+  border-style: hidden;
+  background-color: transparent;
+}
+
+button.js-mute-button {
+  border-style: hidden;
+  background-color: transparent;
+}
+
 i {
   color: white;
 }
