@@ -4,29 +4,30 @@
 <head>
     <title>Пример подключения плеера</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div id="player">
+    <div class="player" id="player">
 
-        <div class="js-video-container"></div>
+        <div class="container js-video-container"></div>
 
-        <div class="buttons">
-            <button class="js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-            <button class="js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
-            <button class="js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-            <button class="js-mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        <div class="buttons player-buttons">
+            <button class="button js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="button js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
+            <button class="button js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+            <button class="button js-mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
             <div class="timeline">
                 <span class="js-current-time"></span>
                 —
                 <span class="js-duration"></span>
             </div>
-            <div class="js-progress">
-                <div class="js-progress-slider"><span class="progress-text">Progress</span></div>
+            <div class="progress js-progress">
+                <div class="progress-slider js-progress-slider"><span class="progress-text">Progress</span></div>
             </div>
-            <button class="js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
+            <button class="button js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
         </div>
     </div>
 

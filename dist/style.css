@@ -1,16 +1,14 @@
-button {
+.button {
   border-style: hidden;
   background-color: transparent;
   width: 40px;
-}
-
-i.fa {
+  min-height: 40px;
   color: white;
   font-size: 20px;
   padding: 5px;
 }
 
-#player {
+div.player {
   width: 800px;
   height: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -18,18 +16,18 @@ i.fa {
   flex-direction: column;
 }
 
-div.buttons {
+.player-buttons {
   background-color: black;
   line-height: 40px;
   display: flex;
 }
 
-div.js-progress {
+div.progress {
   flex-grow: 1;
   background-color: black;
 }
 
-div.js-progress-slider {
+div.progress-slider {
   background-color: white;
   line-height: 20px;
   margin-top: 10px;
@@ -40,7 +38,7 @@ div.timeline {
   color: white;
 }
 
-div.js-video-container {
+div.container {
   width: 100%;
   height: 100%;
 }
