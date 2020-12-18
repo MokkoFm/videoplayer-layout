@@ -7,7 +7,7 @@ You can read how to hook up the player at [https://github.com/devmanorg/video-pl
 
 ### How to use layout
 
-* Dowload the code
+* Download the code
 * Check that you have Python 3  
 * Install requirements:  
 ```
