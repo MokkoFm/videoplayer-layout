@@ -8,6 +8,14 @@
   padding: 5px;
 }
 
+.button-control-player:nth-child(1) {
+  margin-left: -5px;
+}
+
+.button-control-player:nth-child(4) {
+  margin-left: -2px;
+}
+
 .player {
   width: 800px;
   height: 600px;
@@ -20,6 +28,7 @@
   background-color: black;
   line-height: 40px;
   display: flex;
+  margin-bottom: 5px;
 }
 
 .progress {
