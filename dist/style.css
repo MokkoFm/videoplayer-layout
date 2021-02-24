@@ -37,10 +37,13 @@
 }
 
 .progress-slider {
-  background-color: white;
+  background-color: #f8104d;
   line-height: 20px;
   margin-top: 10px;
   margin-left: 10px;
+  height: 3px;
+  margin-top: 18px;
+  border-radius: 2px;
 }
 
 .timeline {
