@@ -9,11 +9,11 @@
 }
 
 .button-control-player:nth-child(1) {
-  margin-left: -5px;
+  margin-left: -2px;
 }
 
 .button-control-player:nth-child(4) {
-  margin-left: -2px;
+  margin-left: 1px;
 }
 
 .player {
@@ -28,7 +28,7 @@
   background-color: black;
   line-height: 40px;
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .progress {
@@ -45,6 +45,11 @@
 
 .timeline {
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .container {
@@ -54,4 +59,8 @@
 
 .progress-text {
   margin-left: 10px;
+}
+
+.js-fullscreen-button {
+  margin-right: 3px;
 }
