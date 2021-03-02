@@ -34,6 +34,7 @@
 .progress {
   flex-grow: 1;
   background-color: black;
+  display: flex;
 }
 
 .progress-slider {
@@ -60,10 +61,16 @@
   height: 100%;
 }
 
-.progress-text {
-  margin-left: 10px;
-}
-
 .js-fullscreen-button {
   margin-right: 3px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #f8104d;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 10px black;
 }
