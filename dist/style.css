@@ -8,6 +8,10 @@
   padding: 5px;
 }
 
+.button-control-player:focus {
+  outline: none;
+}
+
 .button-control-player:nth-child(1) {
   margin-left: -2px;
 }
@@ -19,16 +23,16 @@
 .player {
   width: 800px;
   height: 600px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
   display: flex;
   flex-direction: column;
+  margin-top: -3px;
 }
 
 .player-buttons {
   background-color: black;
   line-height: 40px;
   display: flex;
-  margin-bottom: 3px;
 }
 
 .progress {
